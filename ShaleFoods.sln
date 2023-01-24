@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaleFoods.Api", "ShaleFoods.Api\ShaleFoods.Api.csproj", "{B8EFAE24-60A9-4DBF-9997-551BCC5030EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaleFoods.Application", "ShaleFoods.Application\ShaleFoods.Application.csproj", "{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaleFoods.Contracts", "ShaleFoods.Contracts\ShaleFoods.Contracts.csproj", "{6BBBBDC1-99EE-483B-A578-AE433FC684BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaleFoods.Domain", "ShaleFoods.Domain\ShaleFoods.Domain.csproj", "{EA8AA693-9300-4153-B50E-3FD8AC98C69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaleFoods.Infrastructure", "ShaleFoods.Infrastructure\ShaleFoods.Infrastructure.csproj", "{10A97229-51D1-4ED4-9B04-06740B380FFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8ED8727A-79E4-41B8-9B35-FAF59AF578DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47C16E42-2069-4881-A096-46CD1C2A9D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8EFAE24-60A9-4DBF-9997-551BCC5030EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EFAE24-60A9-4DBF-9997-551BCC5030EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EFAE24-60A9-4DBF-9997-551BCC5030EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EFAE24-60A9-4DBF-9997-551BCC5030EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBBBDC1-99EE-483B-A578-AE433FC684BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBBBDC1-99EE-483B-A578-AE433FC684BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBBBDC1-99EE-483B-A578-AE433FC684BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBBBDC1-99EE-483B-A578-AE433FC684BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8AA693-9300-4153-B50E-3FD8AC98C69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8AA693-9300-4153-B50E-3FD8AC98C69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8AA693-9300-4153-B50E-3FD8AC98C69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8AA693-9300-4153-B50E-3FD8AC98C69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A97229-51D1-4ED4-9B04-06740B380FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A97229-51D1-4ED4-9B04-06740B380FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A97229-51D1-4ED4-9B04-06740B380FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A97229-51D1-4ED4-9B04-06740B380FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8EFAE24-60A9-4DBF-9997-551BCC5030EA} = {8ED8727A-79E4-41B8-9B35-FAF59AF578DB}
+		{B5CC53A3-6D5F-40F0-88B1-7E57B8BD5B14} = {8ED8727A-79E4-41B8-9B35-FAF59AF578DB}
+		{6BBBBDC1-99EE-483B-A578-AE433FC684BC} = {8ED8727A-79E4-41B8-9B35-FAF59AF578DB}
+		{EA8AA693-9300-4153-B50E-3FD8AC98C69E} = {8ED8727A-79E4-41B8-9B35-FAF59AF578DB}
+		{10A97229-51D1-4ED4-9B04-06740B380FFA} = {8ED8727A-79E4-41B8-9B35-FAF59AF578DB}
+		{53995AFA-74FC-4E9C-A0D2-16BBC9D1CEE3} = {47C16E42-2069-4881-A096-46CD1C2A9D17}
+	EndGlobalSection
+EndGlobal
