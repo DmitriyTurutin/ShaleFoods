@@ -12,14 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShaleFoods.Contracts\ShaleFoods.Contracts.csproj" />
     <ProjectReference Include="..\ShaleFoods.Application\ShaleFoods.Application.csproj" />
-    <ProjectReference Include="..\ShaleFoods.Domain\ShaleFoods.Domain.csproj" />
+    <ProjectReference Include="..\ShaleFoods.Contracts\ShaleFoods.Contracts.csproj" />
     <ProjectReference Include="..\ShaleFoods.Infrastructure\ShaleFoods.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers" />
   </ItemGroup>
 
 </Project>
