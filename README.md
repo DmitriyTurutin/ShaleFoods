@@ -17,6 +17,8 @@ Create an API that can
 
 ### To be done first
 
+- [ ] Even storm Sales
+- [ ] Event storm Vacancies
 - [ ] Setup EF Core
 
 #### Vacancies
