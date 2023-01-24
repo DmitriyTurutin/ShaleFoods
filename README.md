@@ -5,7 +5,8 @@ Shale Foods Backend
 ### What is the main goal?
 
 The main goal of this project is:
-Create and API that can
+
+Create an API that can
 
 1. Retrive Create Delete Update Vacancies
 2. Retrive Create Delete Update Sales
@@ -77,9 +78,9 @@ var response = request.Execute();
 
 #### Authentication and Authorization
 
-\*[Use openiddict](https://github.com/openiddict/openiddict-core) to set up authentication and authorization
+[Use openiddict](https://github.com/openiddict/openiddict-core) to set up authentication and authorization
 
 - [ ] Vacancies
 
 - [ ] Sales
-- [ ]
+- [ ] Sending Email
