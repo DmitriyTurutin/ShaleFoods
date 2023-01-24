@@ -1,6 +1,5 @@
 using ShaleFoods.Api;
 using ShaleFoods.Application;
-using ShaleFoods.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
