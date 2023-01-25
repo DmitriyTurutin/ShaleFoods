@@ -17,4 +17,8 @@
     <ProjectReference Include="..\ShaleFoods.Infrastructure\ShaleFoods.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers" />
+  </ItemGroup>
+
 </Project>

@@ -8,8 +8,8 @@ The main goal of this project is:
 
 Create an API that can
 
-1. Retrive Create Delete Update Vacancies
-2. Retrive Create Delete Update Sales
+1. Retrieve Create Delete Update Vacancies
+2. Retrieve Create Delete Update Sales
 3. Get and process data form contacts page
 4. Generate and send Email to client
 5. Generate and send Email to manager
@@ -17,14 +17,22 @@ Create an API that can
 
 ### To be done first
 
-- [ ] Even storm Sales
-- [ ] Event storm Vacancies
+- [x] Event storm Sales
+- [x] Event storm Vacancies
+- [x] Vacancies domain layer
+- [x] Test Vacancies domain layer
+- [ ] Sales domain layer
+- [ ] Test Sales domain layer
+- [ ] Vacancies application layer
+- [ ] Test Vacancies application layer
+- [ ] Sales application layer
+- [ ] Tests Sales application layer
 - [ ] Setup EF Core
 
 #### Vacancies
 
-- Implement _domain layer_
-- Unit Test _domain layer_
+- ~~Implement _domain layer_~~
+- ~~Unit Test _domain layer_~~
 - Implement _application layer_
 - Unit Test _application layer_
 - Implement _infrastructure layer_
@@ -81,8 +89,3 @@ var response = request.Execute();
 #### Authentication and Authorization
 
 [Use openiddict](https://github.com/openiddict/openiddict-core) to set up authentication and authorization
-
-- [ ] Vacancies
-
-- [ ] Sales
-- [ ] Sending Email
