@@ -1,0 +1,2 @@
+namespace ShaleFoods.Domain.Sale;
+

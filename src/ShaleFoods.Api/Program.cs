@@ -1,11 +1,15 @@
 using ShaleFoods.Api;
+using ShaleFoods.Application;
+using ShaleFoods.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 {
     builder.Services
-        .AddPresentation();
+        .AddPresentation()
+        .AddApplication()
+        .AddInfrastructure();
 }
 
 var app = builder.Build();
