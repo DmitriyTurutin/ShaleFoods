@@ -10,7 +10,7 @@ public sealed class Vacancy : AggregateRoot<VacancyId>
     public SalaryFork Salary { get; }
     public string Description { get; }
     public readonly List<string> _requiredSkills = new();
-    public readonly List<string> _goodTodKnow = new();
+    public readonly List<string> _goodToKnow = new();
     public string WorkingConditions { get; }
     public DateTime CreatedAt { get; }
     public DateTime UpdatedAt { get; }
@@ -22,7 +22,7 @@ public sealed class Vacancy : AggregateRoot<VacancyId>
         SalaryFork salaryFork,
         string description,
         List<string> requiredSkills,
-        List<string> goodTodKnow,
+        List<string> goodToKnow,
         string workingConditions,
         DateTime createdAt,
         DateTime updatedAt)
@@ -43,7 +43,7 @@ public sealed class Vacancy : AggregateRoot<VacancyId>
         Salary = salaryFork;
         Description = description;
         _requiredSkills = requiredSkills;
-        _goodTodKnow = goodTodKnow;
+        _goodToKnow = goodToKnow;
         WorkingConditions = workingConditions;
         CreatedAt = createdAt;
         UpdatedAt = updatedAt;

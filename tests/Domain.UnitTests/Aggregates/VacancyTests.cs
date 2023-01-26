@@ -28,7 +28,7 @@ public class VacancyTests
         Assert.Equal(salaryFork, vacancy.Salary);
         Assert.Equal(description, vacancy.Description);
         Assert.Equal(requiredSkills, vacancy._requiredSkills);
-        Assert.Equal(goodToKnow, vacancy._goodTodKnow);
+        Assert.Equal(goodToKnow, vacancy._goodToKnow);
         Assert.Equal(workingConditions, vacancy.WorkingConditions);
         Assert.NotEqual(DateTime.MinValue, vacancy.CreatedAt);
         Assert.NotEqual(DateTime.MinValue, vacancy.UpdatedAt);

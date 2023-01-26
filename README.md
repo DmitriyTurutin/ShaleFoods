@@ -15,6 +15,12 @@ Create an API that can
 5. Generate and send Email to manager
 6. Generate excel from clients requests data
 
+## Up next:
+
+- [ ] Test Vacancy commands and queries
+- [ ] Add EF Core postgres
+- [ ] Implement IVacancyRepository interface
+
 ### To be done first
 
 - [x] Event storm Sales
@@ -23,7 +29,7 @@ Create an API that can
 - [x] Test Vacancies domain layer
 - [ ] Sales domain layer
 - [ ] Test Sales domain layer
-- [ ] Vacancies application layer
+- [x] Vacancies application layer
 - [ ] Test Vacancies application layer
 - [ ] Sales application layer
 - [ ] Tests Sales application layer
