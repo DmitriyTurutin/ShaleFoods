@@ -7,7 +7,13 @@ namespace ShaleFoods.Application.Vacancies.Queries;
 public class GetVacancyQueryHandler
     : IRequestHandler<GetVacancyQuery, VacancyResult>
 {
-    private IVacancyRepository _vacancyRepository;
+    private readonly IVacancyRepository _vacancyRepository;
+
+    public GetVacancyQueryHandler(IVacancyRepository vacancyRepository)
+    {
+        _vacancyRepository = vacancyRepository;
+    }
+
     public Task<VacancyResult> Handle(GetVacancyQuery query, CancellationToken cancellationToken)
     {
         var vacancy = _vacancyRepository.GetAsync(query.Id).Result;

@@ -9,4 +9,5 @@ public interface IVacancyRepository
     Task<Vacancy> GetAsync(VacancyId id);
     Task<List<Vacancy>> GetAllAsync();
     Task UpdateAsync(Vacancy vacancy);
+    Task<Vacancy> DeleteAsync(VacancyId id);
 }

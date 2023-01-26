@@ -7,7 +7,7 @@ namespace ShaleFoods.Application.Vacancies.Queries;
 public class GetAllVacancyQueryHandler
     : IRequestHandler<GetAllVacancyQuery, VacanciesListResult>
 {
-    private IVacancyRepository _vacancyRepository;
+    private readonly IVacancyRepository _vacancyRepository;
 
     public GetAllVacancyQueryHandler(IVacancyRepository vacancyRepository)
     {
