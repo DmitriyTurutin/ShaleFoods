@@ -40,7 +40,7 @@ public class GetAllVacancyQueryHandlerTests
             new List<string>{"Required Skill 3", "Required Skill 4"},
             new List<string>{"Good to Know 3", "Good to Know 4"},
             "Working Conditions 2");
-        var expectedVacancies = new List<Vacancy> { expectedVacancy1, expectedVacancy2 };
+        var expectedVacancies = new List<Vacancy?> { expectedVacancy1, expectedVacancy2 };
         _vacancyRepositoryMock.Setup(r => r.GetAllAsync()).ReturnsAsync(expectedVacancies);
 
         // Act

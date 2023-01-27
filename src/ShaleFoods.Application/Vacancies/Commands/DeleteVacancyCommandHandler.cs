@@ -1,6 +1,7 @@
 using MediatR;
 using ShaleFoods.Application.Common.Interfaces.Persistance;
 using ShaleFoods.Application.Vacancies.Common;
+using ShaleFoods.Domain.Vacancy;
 
 namespace ShaleFoods.Application.Vacancies.Commands;
 

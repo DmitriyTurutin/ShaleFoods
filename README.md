@@ -17,9 +17,14 @@ Create an API that can
 
 ## Up next:
 
-- [ ] Test Vacancy commands and queries
-- [ ] Add EF Core postgres
-- [ ] Implement IVacancyRepository interface
+- [x] Test Vacancy commands and queries
+- [x] Add EF Core postgres
+- [x] Implement IVacancyRepository interface
+- [ ] Add configuration in infrastructure -> DependencyInjection.cs
+- [ ] Add Presentation layer for vacancies
+- [ ] Test Presentation layer for vacancies
+- [ ] Add Domain layer for sales
+- [ ] Test Domain Layer for sales
 
 ### To be done first
 
@@ -30,22 +35,22 @@ Create an API that can
 - [ ] Sales domain layer
 - [ ] Test Sales domain layer
 - [x] Vacancies application layer
-- [ ] Test Vacancies application layer
+- [x] Test Vacancies application layer
 - [ ] Sales application layer
 - [ ] Tests Sales application layer
-- [ ] Setup EF Core
+- [x] Setup EF Core
 
 #### Vacancies
 
 - ~~Implement _domain layer_~~
 - ~~Unit Test _domain layer_~~
-- Implement _application layer_
-- Unit Test _application layer_
-- Implement _infrastructure layer_
-- Unit test _infrastructure layer_
-- Implement _presentation layer_
-- Unit test _presentation layer_
-- Integration test `Sales`
+- ~~Implement _application layer_~~
+- ~~Unit Test _application layer_~~
+- ~~Implement _infrastructure layer_~~
+- ~~Unit test _infrastructure layer_~~
+- ~~Implement _presentation layer_~~
+- ~~Unit test _presentation layer_~~
+- ~~Integration test `Sales`~~
 
 #### Sales
 

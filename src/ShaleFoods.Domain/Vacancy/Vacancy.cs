@@ -49,7 +49,7 @@ public sealed class Vacancy : AggregateRoot<VacancyId>
         UpdatedAt = updatedAt;
     }
 
-    public static Vacancy Create(
+    public static Vacancy? Create(
         string title,
         int experience,
         SalaryFork salaryFork,
